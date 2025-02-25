@@ -42,8 +42,6 @@ const Travellers = ({ bodyData }) => {
             <Link
               href={`/properties/${item.slug}`}
               className="citiesCard -type-2"
-              data-aos="fade"
-              data-aos-delay={destinations3[index]?.delayAnimation}
             >
               <div className="citiesCard__image rounded-4 ratio ratio-3:4">
                 <img

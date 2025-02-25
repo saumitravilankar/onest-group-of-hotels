@@ -18,13 +18,13 @@ const index = ({ blockData }) => {
               >
                 {head?.heading}
               </h1>
-              <p
+              <h1
                 className="text-white mt-6 md:mt-10"
                 data-aos="fade-up"
                 data-aos-delay="100"
               >
                 {head?.subHeading}
-              </p>
+              </h1>
             </div>
             {/* End hero title */}
 
